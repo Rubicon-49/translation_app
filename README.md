@@ -1,6 +1,6 @@
 # 🧠 Multilingual Translation Web App
 
-<video src="Translator_Demo.mp4" controls width="600"></video>
+[![TranslatorWeb demo](preview.jpg)](Translator_Demo.mp4)
 
 A lightweight FastAPI-based translation web app using Hugging Face MarianMT models.
 Translate between multiple languages (German, English, French, Spanish, etc.) directly in your browser, powered by open-source NLP models.
