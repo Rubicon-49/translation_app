@@ -1,22 +1,23 @@
-# 🧠 Multilingual Translation Web App
+# 🧠 Translate locally. Keep your data private.
 
-[![TranslatorWeb demo](preview.jpg)](Translator_Demo.mp4)
+![TranslatorWeb demo](preview.jpg)
 
-A lightweight FastAPI-based translation web app using Hugging Face MarianMT models.
-Translate between multiple languages (German, English, French, Spanish, etc.) directly in your browser, powered by open-source NLP models.
-els.
+This web app runs completely on your own computer using open-source machine translation models. Nothing is sent to the cloud and no text ever leaves your machine. You get fast translation while staying in full control of your information. 
+
+You choose the model that fits your hardware and needs. The app supports:
+
+- Translation models from the Helsinki NLP team (Marian MT) via Hugging Face interface
+- Large general-purpose models such as Flan-T5 from Google Research
+- Powerful local models like Gemma 3 (4-billion parameters) from Google DeepMind available via Ollama
+
+Everything runs locally. No accounts. No API keys. No external services required once installed.
 
 ## 💡 About this project
 
-This little project began as a personal experiment — partly curiosity, partly a learning challenge — inspired by the Coursera course **“MLOps: Machine Learning Operations”** by _Alfredo Deza_ and _Noah Gift_.
-
-After finishing the course, I wanted to see if I could build something on my own: a small, working application that blends modern MLOps ideas with practical NLP.
+I created this app because I wanted a simple translation tool that respects privacy. No ads. No tracking. Just fast translations that stay on your own computer. It began as a hands-on follow-up to the Coursera course **MLOps: Machine Learing Operatios** by _Alfredo Deza_ and _Noah Gift_. After finishing the course, I wanted to see if I could build something on my own: a small, working application that blends modern MLOps ideas with practical NLP.
 With the help of **Real Python** tutorials and the outstanding open translation models from the **Helsinki Language Technology Research Group (Helsinki-NLP)**, this idea slowly took shape.
 
-The real motivation, though, was much closer to home. I wanted to give my children a simple, distraction-free tool to translate everyday words and phrases into the languages they use most — something fast, private, and free from ads or tracking.
-Something that feels like _ours._
-
-What started as a follow-up exercise turned into a hands-on exploration of open-source machine translation — and a small, meaningful way to bring technology and language a little closer together.
+I hope it provides a useful, distraction-free option for others as well.
 
 ## 🚀 Features
 
